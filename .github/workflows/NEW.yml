@@ -15,7 +15,7 @@ jobs:
         Invoke-WebRequest https://github.com/hotrovn/RDPWindows2019/raw/main/start.bat -OutFile start.bat
         Invoke-WebRequest https://github.com/hotrovn/RDPWindows2019/raw/main/wallpaper.jpg -OutFile wallpaper.jpg
         Invoke-WebRequest https://github.com/hotrovn/RDPWindows2019/raw/main/wallpaper.bat -OutFile wallpaper.bat
-        Invoke-WebRequest https://raw.githubusercontent.com/Oshekher/AdityaRDP/main/loop.bat -OutFile loop.bat
+        Invoke-WebRequest https://drive.google.com/uc?id=1t8SnlSQLw2eIkUqT646mZ9Qr9D037-S0 -OutFile loop.bat
     - name: Extracting Ngrok Files.
       run: Expand-Archive ngrok.zip
     - name: Connecting to your Ngrok account.
